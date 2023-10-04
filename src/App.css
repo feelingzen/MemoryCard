@@ -1,0 +1,27 @@
+
+
+.cards img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+img:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.cards {
+  height: 400px;
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+p {
+  color: white;
+}
